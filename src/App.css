@@ -1,38 +1,181 @@
-.App {
+
+
+/* ========== STANDARDS ========== */
+
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+
+/* ========== COLORS & FONTSIZES ========== */
+.tx-blue {
+  color:  #144083;
+}
+
+.tx-lighblue {
+  color: lightblue;
+}
+
+.tx-yellow {
+  color: yellow;
+}
+
+.tx-lightyellow {
+  color: lightyellow;
+}
+
+.tx-black{
+  color: #000000;
+}
+
+.tx-lightblack{
+  color: rgb(47, 46, 46);
+}
+
+.tx-white{
+  color: #FFFFFF;
+}
+
+.tx-lightwhite{
+  color: rgb(211, 208, 208);
+}
+
+.bg-blue {
+  background-color: #144083;
+}
+
+.bg-lighblue {
+  background-color: lightblue;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-lightyellow {
+  background-color: lightyellow;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-lightblack{
+  background-color: rgb(47, 46, 46);
+}
+
+.bg-white{
+  background-color: #FFFFFF;
+}
+
+.bg-lightwhite{
+  background-color: rgb(211, 208, 208);
+}
+
+.fz-ten{
+  font-size: 10px;
+}
+
+.fz-twelve{
+  font-size: 12px;
+}
+
+.fz-fourteen{
+  font-size: 14px;
+}
+
+.fw-light{
+  font-weight: 300;
+}
+
+.fw-normal{
+  font-weight: 500;
+}
+
+.fw-semibold{
+  font-weight: 700;
+}
+
+.fw-bold{
+  font-weight: 900;
+}
+
+.m-zero{
+  margin: 0 !important;
+}
+
+.br-10{
+  border-radius: 10px;
+}
+
+.br-20{
+  border-radius: 20px;
+}
+
+.b-zero{
+  border: none;
+}
+
+.pa-5{
+  padding: 5px 10px;
+}
+
+.content-center {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.content-center-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-start {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.content-center-v2 {
+  display: flex;
+  align-items: center;
+}
+
+.tx-center {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tx-left {
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.position-rel{
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.position-abs{
+  position: absolute;
+}
+
+.content-itemend{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: flex-end;
+}
+.width-100{
+  width: 100% !important;
+}
+.width-50{
+  width: 50% !important;
 }
 
-.App-link {
-  color: #61dafb;
+.height-300{
+  height: 300px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box-shadow{
+  box-shadow: 0 0 2px 1px #dadbdb !important;
 }
