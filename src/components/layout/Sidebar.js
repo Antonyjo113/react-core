@@ -17,39 +17,39 @@ const Sidebar = ({ onMenuSelect }) => {
                 onMenuItemClick(event)
             }
         },
+        // {
+        //     label: 'Learning',
+        //     title: 'learning',
+        //     menuTitle: 'Learning',
+        //     command: (event) => {
+        //         onMenuItemClick(event)
+        //     }
+        // },
+        // {
+        //     label: 'Make Booking',
+        //     title: 'makeBooking',
+        //     menuTitle: 'Make Booking',
+        //     command: (event) => {
+        //         onMenuItemClick(event)
+        //     }
+        // },
         {
-            label: 'Booking',
-            title: 'booking',
-            menuTitle: 'Booking',
-            command: (event) => {
-                onMenuItemClick(event)
-            }
-        },
-        {
-            label: 'Make Booking',
-            title: 'makeBooking',
-            menuTitle: 'Make Booking',
-            command: (event) => {
-                onMenuItemClick(event)
-            }
-        },
-        {
-            label: 'Settings',
-            title: 'Settings',
-            menuTitle: 'Settings',
+            label: 'Learnings',
+            title: 'Learnings',
+            menuTitle: 'Learnings',
             items: [
                 {
-                    label: 'Business Unit',
-                    title: 'businessUnit',
-                    menuTitle: 'Business Unit',
+                    label: 'Core',
+                    title: 'core',
+                    menuTitle: 'Core',
                     command: (event) => {
                         onMenuItemClick(event)
                     }
                 },
                 {
-                    label: 'User',
-                    title: 'user',
-                    menuTitle: 'User',
+                    label: 'Hooks',
+                    title: 'hooks',
+                    menuTitle: 'Hooks',
                     command: (event) => {
                         onMenuItemClick(event)
                     }
@@ -57,26 +57,18 @@ const Sidebar = ({ onMenuSelect }) => {
             ]
         },
         {
-            label: 'Configuration',
-            title: 'Configuration',
-            menuTitle: 'Configuration',
+            label: 'Settings',
+            title: 'Settings',
+            menuTitle: 'Settings',
             items: [
                 {
-                    label: 'Business Unit',
-                    title: 'businessUnitConfig',
-                    menuTitle: 'Business Unit',
+                    label: 'User',
+                    title: 'user',
+                    menuTitle: 'User',
                     command: (event) => {
                         onMenuItemClick(event)
                     }
                 },
-                {
-                    label: 'User Role',
-                    title: 'userRoleConfig',
-                    menuTitle: 'User Role',
-                    command: (event) => {
-                        onMenuItemClick(event)
-                    }
-                }
             ]
         }
     ]
@@ -107,7 +99,7 @@ const Sidebar = ({ onMenuSelect }) => {
                     <PanelMenu model={items} style={{ width: '20rem' }} />
                 </div>
                 <div className='logout content-center'>
-                    <i class="bi bi-box-arrow-right tx-blue" onClick={logout}></i>
+                    <i class="bi bi-box-arrow-right tx-violet" onClick={logout}>L</i>
                 </div>
             </div>
         </div>

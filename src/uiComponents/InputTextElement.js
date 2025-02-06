@@ -5,7 +5,7 @@ import { InputText } from "primereact/inputtext";
 /* Function */
 const InputTextElement = (props) => {
     const [inputValue, setInputValue] = useState('');
-    const labelClassName = props.labelClassName + " tx-blue";
+    const labelClassName = props.labelClassName + " tx-violet";
 
 
     /* Methods */

@@ -14,7 +14,7 @@ const Header = ({ menuLabel, menuTitle }) => {
     return (
         <div className='header'>
             <div className="title">
-                <h2 className='m-zero tx-blue'>{menuTitle} </h2>
+                <h2 className='m-zero tx-violet'>{menuTitle} </h2>
             </div>
             <div className='header-line'></div>
             <div className="">
