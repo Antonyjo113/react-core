@@ -3,7 +3,7 @@ import { React, useState, useEffect, useRef, createContext } from 'react';
 import { Route, Routes, useNavigate } from "react-router-dom";
 // import 'react-big-calendar/lib/css/react-big-calendar.css';
 // import 'bootstrap-icons/font/bootstrap-icons.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import CSS files
 import './App.css';
