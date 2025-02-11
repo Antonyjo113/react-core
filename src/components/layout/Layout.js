@@ -23,37 +23,17 @@ const Layout = () => {
             setMenuLabel('Dashboard');
             setMenuTitle('Dashboard');
         } 
-        else if (location.pathname === '/booking'){
-            setMenuLabel('Booking');
-            setMenuTitle('Booking');
+        else if (location.pathname === '/core'){
+            setMenuLabel('Core');
+            setMenuTitle('Core');
         } 
-        else if (location.pathname === '/booking-list'){
-            setMenuLabel('Booking List');
-            setMenuTitle('Booking List');
+        else if (location.pathname === '/hooks'){
+            setMenuLabel('Hooks');
+            setMenuTitle('Hooks');
         }
-        else if (location.pathname === '/make-booking'){
-            setMenuLabel('Make Booking');
-            setMenuTitle('Make Booking');
-        }
-        else if (location.pathname === '/create-booking'){
-            setMenuLabel('Create Booking');
-            setMenuTitle('Create Booking');
-        }
-        else if (location.pathname === '/businessunit'){
-            setMenuLabel('Business Unit');
-            setMenuTitle('Business Unit');
-        }
-        else if (location.pathname === '/user'){
-            setMenuLabel('User');
-            setMenuTitle('User');
-        }
-        else if (location.pathname === '/businessUnitConfig'){
-            setMenuLabel('Business Unit');
-            setMenuTitle('Business Unit');
-        }
-        else if (location.pathname === '/userRoleConfig'){
-            setMenuLabel('User Role');
-            setMenuTitle('User Role');
+        else if (location.pathname === '/logicalPrograms'){
+            setMenuLabel('Logical Programs');
+            setMenuTitle('Logical Programs');
         }
 
     }, [location.pathname])
@@ -75,23 +55,14 @@ const Layout = () => {
         if(title === 'dashboard'){
             navigate('/dashboard');
         } 
-        else if (title === 'booking'){
-            navigate('/booking')
+        else if (title === 'core'){
+            navigate('/core')
         } 
-        else if (title === 'makeBooking'){
-            navigate('/make-booking')
+        else if (title === 'hooks'){
+            navigate('/hooks')
         }
-        else if (title === 'businessUnit'){
-            navigate('/businessunit')
-        }
-        else if (title === 'user'){
-            navigate('/user')
-        }
-        else if (title === 'businessUnitConfig'){
-            navigate('/businessUnitConfig')
-        }
-        else if (title === 'userRoleConfig'){
-            navigate('/userRoleConfig')
+        else if (title === 'logicalPrograms'){
+            navigate('/logicalPrograms')
         }
     }
 

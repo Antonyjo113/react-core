@@ -53,6 +53,14 @@ const Sidebar = ({ onMenuSelect }) => {
                     command: (event) => {
                         onMenuItemClick(event)
                     }
+                },
+                {
+                    label: 'Logical Programs',
+                    title: 'logicalPrograms',
+                    menuTitle: 'Logical Programs',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
                 }
             ]
         },
