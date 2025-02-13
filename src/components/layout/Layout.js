@@ -35,6 +35,26 @@ const Layout = () => {
             setMenuLabel('Logical Programs');
             setMenuTitle('Logical Programs');
         }
+        else if (location.pathname === '/reduxCounter'){
+            setMenuLabel('Redux Counter');
+            setMenuTitle('Redux Counter');
+        }
+        else if (location.pathname === '/applications/counterApp'){
+            setMenuLabel('Counter App');
+            setMenuTitle('Counter App');
+        }
+        else if (location.pathname === '/applications/todoApp'){
+            setMenuLabel('Todo App');
+            setMenuTitle('Todo App');
+        }
+        else if (location.pathname === '/applications/weatherApp'){
+            setMenuLabel('Weather App');
+            setMenuTitle('Weather App');
+        }
+        else if (location.pathname === '/applications/memoryGameApp'){
+            setMenuLabel('Memory Game App');
+            setMenuTitle('Memory Game App');
+        }
 
     }, [location.pathname])
 
@@ -63,6 +83,21 @@ const Layout = () => {
         }
         else if (title === 'logicalPrograms'){
             navigate('/logicalPrograms')
+        }
+        else if (title === 'reduxCounter'){
+            navigate('/reduxCounter')
+        }
+        else if (title === 'counterApp'){
+            navigate('/applications/counterApp')
+        }
+        else if (title === 'todoApp'){
+            navigate('/applications/todoApp')
+        }
+        else if (title === 'weatherApp'){
+            navigate('/applications/weatherApp')
+        }
+        else if (title === 'memoryGameApp'){
+            navigate('/applications/memoryGameApp')
         }
     }
 
