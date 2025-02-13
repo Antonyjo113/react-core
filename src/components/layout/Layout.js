@@ -35,6 +35,18 @@ const Layout = () => {
             setMenuLabel('Logical Programs');
             setMenuTitle('Logical Programs');
         }
+        else if (location.pathname === '/reduxCounter'){
+            setMenuLabel('Redux Counter');
+            setMenuTitle('Redux Counter');
+        }
+        else if (location.pathname === '/applications/counterApp'){
+            setMenuLabel('Counter App');
+            setMenuTitle('Counter App');
+        }
+        else if (location.pathname === '/applications/todoApp'){
+            setMenuLabel('Todo App');
+            setMenuTitle('Todo App');
+        }
 
     }, [location.pathname])
 
@@ -63,6 +75,15 @@ const Layout = () => {
         }
         else if (title === 'logicalPrograms'){
             navigate('/logicalPrograms')
+        }
+        else if (title === 'reduxCounter'){
+            navigate('/reduxCounter')
+        }
+        else if (title === 'counterApp'){
+            navigate('/applications/counterApp')
+        }
+        else if (title === 'todoApp'){
+            navigate('/applications/todoApp')
         }
     }
 

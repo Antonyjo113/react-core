@@ -61,6 +61,14 @@ const Sidebar = ({ onMenuSelect }) => {
                     command: (event) => {
                         onMenuItemClick(event)
                     }
+                },
+                {
+                    label: 'Redux Counter',
+                    title: 'reduxCounter',
+                    menuTitle: 'Redux Counter',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
                 }
             ]
         },
@@ -78,7 +86,31 @@ const Sidebar = ({ onMenuSelect }) => {
                     }
                 },
             ]
+        },
+        {
+            label: 'Applications',
+            title: 'Applications',
+            menuTitle: 'Applications',
+            items: [
+                {
+                    label: 'Counter App',
+                    title: 'counterApp',
+                    menuTitle: 'Counter App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                {
+                    label: 'Todo App',
+                    title: 'todoApp',
+                    menuTitle: 'Todo App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+            ]
         }
+
     ]
 
     let navigate = useNavigate();
