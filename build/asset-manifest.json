@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Antonyjo113/react-core.git/static/css/main.684d1d2f.css",
+    "main.js": "/Antonyjo113/react-core.git/static/js/main.a8fc307e.js",
+    "static/js/488.dd64598c.chunk.js": "/Antonyjo113/react-core.git/static/js/488.dd64598c.chunk.js",
+    "index.html": "/Antonyjo113/react-core.git/index.html",
+    "main.684d1d2f.css.map": "/Antonyjo113/react-core.git/static/css/main.684d1d2f.css.map",
+    "main.a8fc307e.js.map": "/Antonyjo113/react-core.git/static/js/main.a8fc307e.js.map",
+    "488.dd64598c.chunk.js.map": "/Antonyjo113/react-core.git/static/js/488.dd64598c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.684d1d2f.css",
+    "static/js/main.a8fc307e.js"
+  ]
+}
