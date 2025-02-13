@@ -13,6 +13,16 @@ import Login from "./components/login/Login";
 import Dashboard from "./components/dashboard/Dashboard";
 import Layout from './components/layout/Layout';
 
+// React Learnings
+import Core from './components/learning/core/Core';
+import Hooks from './components/learning/hooks/Hooks';
+import LogicalPrograms from './components/learning/logicalPrograms/LogicalPrograms';
+import Counter from './components/learning/redux/Counter';
+import CounterApp from './components/applications/CounterApp';
+import TodoApp from './components/applications/TodoApp';
+import WeatherApp from './components/applications/WeatherApp';
+import MemoryGameApp from './components/applications/MemoryGameApp';
+
 export const UserContext = createContext();
 
 function App() {
@@ -61,6 +71,17 @@ function App() {
               }
             >
               <Route path="/dashboard" element={<Dashboard />} />
+              {/* React Learning */}
+              <Route path="/core" element={<Core />} />
+              <Route path="/hooks" element={<Hooks />} />
+              <Route path="/logicalPrograms" element={<LogicalPrograms />} />
+              <Route path="/reduxCounter" element={<Counter />} />
+              <Route path="/applications/counterApp" element={<CounterApp />} />
+              <Route path="/applications/todoApp" element={<TodoApp />} />
+              <Route path="/applications/weatherApp" element={<WeatherApp />} />
+              <Route path="/applications/memoryGameApp" element={<MemoryGameApp />} />
+
+              
 
             </Route>
           </Routes>

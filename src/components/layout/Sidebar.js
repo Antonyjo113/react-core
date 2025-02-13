@@ -53,6 +53,22 @@ const Sidebar = ({ onMenuSelect }) => {
                     command: (event) => {
                         onMenuItemClick(event)
                     }
+                },
+                {
+                    label: 'Logical Programs',
+                    title: 'logicalPrograms',
+                    menuTitle: 'Logical Programs',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                {
+                    label: 'Redux Counter',
+                    title: 'reduxCounter',
+                    menuTitle: 'Redux Counter',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
                 }
             ]
         },
@@ -70,7 +86,48 @@ const Sidebar = ({ onMenuSelect }) => {
                     }
                 },
             ]
+        },
+        {
+            label: 'Applications',
+            title: 'Applications',
+            menuTitle: 'Applications',
+            items: [
+                {
+                    label: 'Counter App',
+                    title: 'counterApp',
+                    menuTitle: 'Counter App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                {
+                    label: 'Todo App',
+                    title: 'todoApp',
+                    menuTitle: 'Todo App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                {
+                    label: 'Weather App',
+                    title: 'weatherApp',
+                    menuTitle: 'Weather App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                {
+                    label: 'Memory Game App',
+                    title: 'memoryGameApp',
+                    menuTitle: 'Memory Game App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                
+            ]
         }
+
     ]
 
     let navigate = useNavigate();

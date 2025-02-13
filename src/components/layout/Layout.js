@@ -23,37 +23,37 @@ const Layout = () => {
             setMenuLabel('Dashboard');
             setMenuTitle('Dashboard');
         } 
-        else if (location.pathname === '/booking'){
-            setMenuLabel('Booking');
-            setMenuTitle('Booking');
+        else if (location.pathname === '/core'){
+            setMenuLabel('Core');
+            setMenuTitle('Core');
         } 
-        else if (location.pathname === '/booking-list'){
-            setMenuLabel('Booking List');
-            setMenuTitle('Booking List');
+        else if (location.pathname === '/hooks'){
+            setMenuLabel('Hooks');
+            setMenuTitle('Hooks');
         }
-        else if (location.pathname === '/make-booking'){
-            setMenuLabel('Make Booking');
-            setMenuTitle('Make Booking');
+        else if (location.pathname === '/logicalPrograms'){
+            setMenuLabel('Logical Programs');
+            setMenuTitle('Logical Programs');
         }
-        else if (location.pathname === '/create-booking'){
-            setMenuLabel('Create Booking');
-            setMenuTitle('Create Booking');
+        else if (location.pathname === '/reduxCounter'){
+            setMenuLabel('Redux Counter');
+            setMenuTitle('Redux Counter');
         }
-        else if (location.pathname === '/businessunit'){
-            setMenuLabel('Business Unit');
-            setMenuTitle('Business Unit');
+        else if (location.pathname === '/applications/counterApp'){
+            setMenuLabel('Counter App');
+            setMenuTitle('Counter App');
         }
-        else if (location.pathname === '/user'){
-            setMenuLabel('User');
-            setMenuTitle('User');
+        else if (location.pathname === '/applications/todoApp'){
+            setMenuLabel('Todo App');
+            setMenuTitle('Todo App');
         }
-        else if (location.pathname === '/businessUnitConfig'){
-            setMenuLabel('Business Unit');
-            setMenuTitle('Business Unit');
+        else if (location.pathname === '/applications/weatherApp'){
+            setMenuLabel('Weather App');
+            setMenuTitle('Weather App');
         }
-        else if (location.pathname === '/userRoleConfig'){
-            setMenuLabel('User Role');
-            setMenuTitle('User Role');
+        else if (location.pathname === '/applications/memoryGameApp'){
+            setMenuLabel('Memory Game App');
+            setMenuTitle('Memory Game App');
         }
 
     }, [location.pathname])
@@ -75,23 +75,29 @@ const Layout = () => {
         if(title === 'dashboard'){
             navigate('/dashboard');
         } 
-        else if (title === 'booking'){
-            navigate('/booking')
+        else if (title === 'core'){
+            navigate('/core')
         } 
-        else if (title === 'makeBooking'){
-            navigate('/make-booking')
+        else if (title === 'hooks'){
+            navigate('/hooks')
         }
-        else if (title === 'businessUnit'){
-            navigate('/businessunit')
+        else if (title === 'logicalPrograms'){
+            navigate('/logicalPrograms')
         }
-        else if (title === 'user'){
-            navigate('/user')
+        else if (title === 'reduxCounter'){
+            navigate('/reduxCounter')
         }
-        else if (title === 'businessUnitConfig'){
-            navigate('/businessUnitConfig')
+        else if (title === 'counterApp'){
+            navigate('/applications/counterApp')
         }
-        else if (title === 'userRoleConfig'){
-            navigate('/userRoleConfig')
+        else if (title === 'todoApp'){
+            navigate('/applications/todoApp')
+        }
+        else if (title === 'weatherApp'){
+            navigate('/applications/weatherApp')
+        }
+        else if (title === 'memoryGameApp'){
+            navigate('/applications/memoryGameApp')
         }
     }
 

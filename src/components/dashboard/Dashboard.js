@@ -21,13 +21,13 @@ const Dashboard = (props) => {
     }, []);
 
     const learningNavigation = (route) => {
-        navigate(route);
+        navigate(`/${route}`);
     }
 
   
     // RETURN COMPONENT
     return (
-        <div className='main-content-wrapper mt-3'>
+        <div className='main-content-wrapper'>
             <div className='contents'>
                 <h2 className='tx-violet m-zero'>React JS</h2>
                 <p className='tx-lightblack'> This is the ideal application to learn React and experience its functionalities, reusable components, and problem-solving logic. </p>
@@ -37,10 +37,10 @@ const Dashboard = (props) => {
                     <div class="col-4">
                         <div class="card me-3">
                             <div class="card-header tx-white fw-semibold">
-                                React Basic
+                                React Core
                             </div>
                             <div class="card-body">
-                                <blockquote class="blockquote mb-0" onClick={() => learningNavigation("react-basic")}>
+                                <blockquote class="blockquote mb-0" onClick={() => learningNavigation("core")}>
                                 <p>React is a popular JavaScript library for building user interfaces, especially single-page applications (SPAs)</p>
                                 <footer class="blockquote-footer"> Click here to <cite title="Source Title">Continue Learning</cite></footer>
                                 </blockquote>
@@ -53,7 +53,7 @@ const Dashboard = (props) => {
                                 Hooks
                             </div>
                             <div class="card-body">
-                                <blockquote class="blockquote mb-0" onClick={() => learningNavigation("react-hooks")}>
+                                <blockquote class="blockquote mb-0" onClick={() => learningNavigation("hooks")}>
                                 <p>Hooks enable you to use these features in functional components, making it possible to write more concise and readable code.</p>
                                 <footer class="blockquote-footer"> Click here to <cite title="Source Title">Continue Learning</cite></footer>
                                 </blockquote>
@@ -66,7 +66,7 @@ const Dashboard = (props) => {
                                 Logic Problems
                             </div>
                             <div class="card-body">
-                                <blockquote class="blockquote mb-0" onClick={() => learningNavigation("react-logic")}>
+                                <blockquote class="blockquote mb-0" onClick={() => learningNavigation("logicalPrograms")}>
                                 <p>A logical problem refers to constructing a problem and ideology where the application involves the implementation of logic.</p>
                                 <footer class="blockquote-footer"> Click here to <cite title="Source Title">Continue Learning</cite></footer>
                                 </blockquote>
