@@ -47,6 +47,14 @@ const Layout = () => {
             setMenuLabel('Todo App');
             setMenuTitle('Todo App');
         }
+        else if (location.pathname === '/applications/weatherApp'){
+            setMenuLabel('Weather App');
+            setMenuTitle('Weather App');
+        }
+        else if (location.pathname === '/applications/memoryGameApp'){
+            setMenuLabel('Memory Game App');
+            setMenuTitle('Memory Game App');
+        }
 
     }, [location.pathname])
 
@@ -84,6 +92,12 @@ const Layout = () => {
         }
         else if (title === 'todoApp'){
             navigate('/applications/todoApp')
+        }
+        else if (title === 'weatherApp'){
+            navigate('/applications/weatherApp')
+        }
+        else if (title === 'memoryGameApp'){
+            navigate('/applications/memoryGameApp')
         }
     }
 

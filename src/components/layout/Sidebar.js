@@ -108,6 +108,23 @@ const Sidebar = ({ onMenuSelect }) => {
                         onMenuItemClick(event)
                     }
                 },
+                {
+                    label: 'Weather App',
+                    title: 'weatherApp',
+                    menuTitle: 'Weather App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                {
+                    label: 'Memory Game App',
+                    title: 'memoryGameApp',
+                    menuTitle: 'Memory Game App',
+                    command: (event) => {
+                        onMenuItemClick(event)
+                    }
+                },
+                
             ]
         }
 

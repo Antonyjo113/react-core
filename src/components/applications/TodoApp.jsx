@@ -43,7 +43,6 @@ const TodoApp = () => {
                 ))}
                 </ul>
             </div>
-
         </div>
     )
 

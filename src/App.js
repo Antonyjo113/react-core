@@ -20,6 +20,8 @@ import LogicalPrograms from './components/learning/logicalPrograms/LogicalProgra
 import Counter from './components/learning/redux/Counter';
 import CounterApp from './components/applications/CounterApp';
 import TodoApp from './components/applications/TodoApp';
+import WeatherApp from './components/applications/WeatherApp';
+import MemoryGameApp from './components/applications/MemoryGameApp';
 
 export const UserContext = createContext();
 
@@ -76,6 +78,9 @@ function App() {
               <Route path="/reduxCounter" element={<Counter />} />
               <Route path="/applications/counterApp" element={<CounterApp />} />
               <Route path="/applications/todoApp" element={<TodoApp />} />
+              <Route path="/applications/weatherApp" element={<WeatherApp />} />
+              <Route path="/applications/memoryGameApp" element={<MemoryGameApp />} />
+
               
 
             </Route>
